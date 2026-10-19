@@ -1,0 +1,282 @@
+
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="আমাদের মাদ্রাসার পরিচিতি, শিক্ষকমণ্ডলী, বিভাগ ও ভর্তি তথ্য।">
+  <title>দারুল উলূম মাদ্রাসা | ইসলামি শিক্ষার আলো</title>
+
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@100..900&family=Noto+Serif+Bengali:wght@100..900&family=Tiro+Bangla:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+<body>
+
+
+<!-- Floating Contact Box -->
+<div class="floating-contact">
+
+    <a href="https://www.facebook.com/profile.php?id=100063112274769"
+       class="contact-btn facebook"
+       target="_blank"
+       rel="noopener noreferrer"
+       aria-label="Facebook">
+        <i class="fa-brands fa-facebook-f"></i>
+    </a>
+
+    <a href="https://wa.me/8801715-899040"
+       class="contact-btn whatsapp"
+       target="_blank"
+       rel="noopener noreferrer"
+       aria-label="WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <a href="tel:+8801715-899040"
+       class="contact-btn phone"
+       aria-label="Phone">
+        <i class="fa-solid fa-phone"></i>
+    </a>
+
+</div>
+
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <span>☪ بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</span>
+      <span>ইলম • আমল • আখলাক</span>
+    </div>
+  </div>
+
+  <header class="header">
+    <div class="container nav-wrapper">
+      <a href="#home" class="brand">
+        <div class="brand-logo"><img src="./images/logo.png" alt=""></div>
+        <div>
+          <h2 id="madrasaName">জামিয়া ইসলামিয়া দারুল উলূম সাহেপ্রতাপ মাদরাসা</h2>
+          <p>ইসলামি শিক্ষা ও নৈতিকতার প্রতিষ্ঠান</p>
+        </div>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle"
+        aria-label="মেনু খুলুন" aria-expanded="false">☰</button>
+
+      <nav class="nav" id="navMenu">
+        <a href="#home">হোম</a>
+        <a href="#about">পরিচিতি</a>
+        <a href="#teachers">শিক্ষকমণ্ডলী</a>
+        <a href="#classes">বিভাগসমূহ</a>
+        <a href="#notices">নোটিশ</a>
+        <a href="#contact" class="nav-cta">যোগাযোগ</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <span class="eyebrow">আলোকিত মানুষ গড়ার প্রত্যয়ে</span>
+        <h1>কুরআন-সুন্নাহর আলোয়<br><span>গড়ে উঠুক আগামীর প্রজন্ম</span></h1>
+        <p id="heroDescription">
+          দ্বীনি শিক্ষার পাশাপাশি উত্তম চরিত্র, আদর্শ ও মানবিক মূল্যবোধ গড়ে তোলাই আমাদের লক্ষ্য।
+        </p>
+        <div class="hero-actions">
+          <a href="#about" class="btn btn-primary">মাদ্রাসা সম্পর্কে জানুন ↗</a>
+          <a href="#classes" class="btn btn-outline">বিভাগসমূহ দেখুন</a>
+        </div>
+        <div class="hero-note">✦ ইলমের পথে, কল্যাণের পথে ✦</div>
+      </div>
+    </section>
+
+    <section class="stats-section">
+      <div class="container stats-grid">
+        <div class="stat-card">
+          <span class="stat-icon">👨‍🎓</span>
+          <h2 class="counter" id="studentCount">০</h2>
+          <p>মোট শিক্ষার্থী</p>
+        </div>
+        <div class="stat-card">
+          <span class="stat-icon">🧑‍🏫</span>
+          <h2 class="counter" id="teacherCount">০</h2>
+          <p>শিক্ষকমণ্ডলী</p>
+        </div>
+        <div class="stat-card">
+          <span class="stat-icon">📚</span>
+          <h2 class="counter" id="classCount">০</h2>
+          <p>শিক্ষা বিভাগ</p>
+        </div>
+        <div class="stat-card">
+          <span class="stat-icon">🏛️</span>
+          <h2 class="counter" id="yearCount">০</h2>
+          <p>প্রতিষ্ঠার সাল</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container about-grid">
+        <div class="about-image">
+          <img
+            src="./images/drun sort.jpg"
+            alt="ইসলামি শিক্ষা ও কুরআন পাঠ"
+            loading="lazy">
+          <div class="image-badge">
+            <strong id="aboutYear">১৯৮৩</strong>
+            <span>থেকে দ্বীনি শিক্ষার সেবা</span>
+          </div>
+        </div>
+
+        <div class="about-content">
+          <span class="section-tag">আমাদের পরিচিতি</span>
+          <h2>একটি আদর্শ দ্বীনি শিক্ষাপ্রতিষ্ঠান</h2>
+          <p id="aboutText">
+            আমাদের মাদ্রাসা কুরআন-সুন্নাহভিত্তিক শিক্ষা, উত্তম চরিত্র গঠন এবং যোগ্য আলেম তৈরির উদ্দেশ্যে কাজ করে যাচ্ছে।
+          </p>
+          <div class="feature-list">
+            <div><span>✓</span> কুরআন ও সুন্নাহভিত্তিক শিক্ষা</div>
+            <div><span>✓</span> অভিজ্ঞ ও যোগ্য শিক্ষকমণ্ডলী</div>
+            <div><span>✓</span> নৈতিকতা ও আদর্শ চরিত্র গঠন</div>
+            <div><span>✓</span> সুশৃঙ্খল শিক্ষার পরিবেশ</div>
+          </div>
+          <a href="#teachers" class="text-link">আমাদের শিক্ষকদের দেখুন ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section message-section">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-tag">প্রাতিষ্ঠানিক বার্তা</span>
+          <h2>আমাদের লক্ষ্য ও আদর্শ</h2>
+          <p>জ্ঞান, নৈতিকতা ও মানবিকতার সমন্বয়ে শিক্ষার্থীদের গড়ে তোলা।</p>
+        </div>
+        <div class="message-card">
+          <div class="message-symbol">❝</div>
+          <p id="missionText">
+            এমন একটি প্রজন্ম গড়ে তোলা, যারা দ্বীনি জ্ঞানে সমৃদ্ধ, আমলে নিষ্ঠাবান, চরিত্রে সুন্দর এবং সমাজের কল্যাণে নিবেদিত।
+          </p>
+          <span>— মাদ্রাসা কর্তৃপক্ষ</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section teachers-section" id="teachers">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-tag">আমাদের শিক্ষকবৃন্দ</span>
+          <h2>শিক্ষকমণ্ডলীর পরিচিতি</h2>
+          <p>যাঁদের জ্ঞান, পরিশ্রম ও আন্তরিকতায় এগিয়ে চলে আমাদের প্রতিষ্ঠান।</p>
+        </div>
+        <div class="teacher-grid" id="teacherGrid"></div>
+      </div>
+    </section>
+
+    <section class="section classes-section" id="classes">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-tag">শিক্ষাব্যবস্থা</span>
+          <h2>আমাদের শিক্ষা বিভাগসমূহ</h2>
+          <p>প্রতিটি বিভাগের শিক্ষাক্রম ও শিক্ষার্থীদের পরিচিতি দেখুন।</p>
+        </div>
+
+        <div class="search-box">
+          <span>⌕</span>
+          <input type="search" id="classSearch"
+            placeholder="বিভাগ বা শ্রেণির নাম লিখে খুঁজুন..."
+            aria-label="বিভাগ খুঁজুন">
+        </div>
+
+        <div class="class-grid" id="classGrid"></div>
+        <p class="empty-message" id="emptyMessage" hidden>
+          দুঃখিত, কোনো বিভাগ পাওয়া যায়নি।
+        </p>
+        <div class="total-students">
+          <span>সকল বিভাগের মোট শিক্ষার্থী</span>
+          <strong><span id="totalStudents">০</span> জন</strong>
+        </div>
+      </div>
+    </section>
+
+    <section class="section notices-section" id="notices">
+      <div class="container notice-layout">
+        <div>
+          <span class="section-tag">সর্বশেষ সংবাদ</span>
+          <h2>নোটিশ বোর্ড</h2>
+          <p class="muted">প্রতিষ্ঠানের গুরুত্বপূর্ণ ঘোষণা ও বিজ্ঞপ্তি।</p>
+        </div>
+        <div class="notice-list" id="noticeList"></div>
+      </div>
+    </section>
+
+    <section class="admission-banner">
+      <div class="container admission-content">
+        <div>
+          <span class="section-tag">ভর্তি কার্যক্রম</span>
+          <h2>আপনার সন্তানের দ্বীনি শিক্ষার যাত্রা শুরু হোক এখানে</h2>
+          <p>ভর্তি, বিভাগ ও প্রয়োজনীয় তথ্য জানতে আমাদের সঙ্গে যোগাযোগ করুন।</p>
+        </div>
+        <a href="#contact" class="btn btn-light">যোগাযোগ করুন ↗</a>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <span class="section-tag">যোগাযোগ</span>
+          <h2>আমাদের সঙ্গে যোগাযোগ করুন</h2>
+          <p class="muted">ভর্তি ও অন্যান্য তথ্যের জন্য নিচের ঠিকানা ব্যবহার করুন।</p>
+
+          <div class="contact-item">
+            <span>📍</span>
+            <div><strong>ঠিকানা</strong><p id="contactAddress">সাহেপ্রতাব মোড়,বাগহাটা,নরসিংদী সদর,নরসিংদী।</p></div>
+          </div>
+          <div class="contact-item">
+            <span>📞</span>
+            <div><strong>মোবাইল</strong><p id="contactPhone">01XXXXXXXXX</p></div>
+          </div>
+          <div class="contact-item">
+            <span>✉️</span>
+            <div><strong>ইমেইল</strong><p id="contactEmail">example@gmail.com</p></div>
+          </div>
+        </div>
+
+        <div class="contact-card">
+          <h3>মাদ্রাসা অফিস</h3>
+          <p>অফিসের সময় ও যোগাযোগের জন্য কর্তৃপক্ষের সঙ্গে সরাসরি কথা বলুন।</p>
+          <a href="#" id="phoneLink" class="btn btn-primary">☎ কল করুন</a>
+          <a href="#" id="mapLink" class="text-link" target="_blank" rel="noopener noreferrer">Google Maps-এ দেখুন ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>
+        <h3 id="footerName">জামিয়া ইসলামিয়া দারুল উলূম সাহেপ্রতাপ মাদরাসা</h3>
+        <p>সাহেপ্রতাব মোড়,শিলমান্দী ইউনিয়ন,নরসিংদী সদর,নরসিংদী।</p>
+      </div>
+      <p> মোঃ সাজ্জাদুল আলম   <span id="currentYear"></span></p>
+    </div>
+  </footer>
+
+  <button id="backToTop" class="back-to-top" aria-label="উপরে যান">↑</button>
+  <!-- Dark / Light Mode Toggle -->
+  <button
+    id="themeToggle"
+    class="theme-toggle"
+    type="button"
+    aria-label="ডার্ক মোড চালু করুন"
+    title="Dark / Light Mode">
+    <i class="fa-solid fa-moon"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
